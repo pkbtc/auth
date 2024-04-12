@@ -25,7 +25,7 @@ const Google = () => {
             })
         })
         const data = await res.json();
-        cos
+        
         dispatch(signInSuccess(data));
         navigate('/');
         console.log(result)
